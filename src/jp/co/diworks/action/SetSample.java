@@ -13,9 +13,9 @@ public class SetSample {
 		set.add("value4");
 		set.add("value5");
 		
-		set.add("value2");
+		set.add("value2");/*重複する値は入らない*/
 		
-		for(String s: set){
+		for (String s:set){
 			System.out.println(s);
 		}
 	}
